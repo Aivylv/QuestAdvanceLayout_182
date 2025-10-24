@@ -26,3 +26,4 @@ import androidx.compose.ui.unit.dp
 
 
 @Composable
+fun ActivitasPertama(modifier: Modifier)
