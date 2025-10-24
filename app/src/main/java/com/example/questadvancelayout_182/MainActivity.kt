@@ -20,8 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             QuestAdvanceLayout_182Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Lyvia",
+                    ActivitasPertama(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
