@@ -127,3 +127,11 @@ fun MenuItem(@DrawableRes iconResId: Int, text: String) {
                 fontSize = 16.sp,
                 modifier = Modifier.weight(1f)
             )
+            Image(
+                painter = painterResource(id = R.drawable.arrow),
+                contentDescription = stringResource(id = R.string.next),
+                modifier = Modifier.size(24.dp)
+            )
+        }
+    }
+}
