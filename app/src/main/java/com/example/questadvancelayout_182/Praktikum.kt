@@ -74,3 +74,13 @@ fun ProfileScreen(modifier: Modifier = Modifier) {
             color = Color.Gray,
             fontSize = 16.sp
         )
+
+        Spacer(modifier = Modifier.height(32.dp))
+
+        Column(verticalArrangement = Arrangement.spacedBy(16.dp)) {
+            MenuItem(iconResId = R.drawable.security, text = stringResource(id = R.string.privacy))
+            MenuItem(iconResId = R.drawable.riwayat_transaksi, text = stringResource(id = R.string.history))
+            MenuItem(iconResId = R.drawable.setting, text = stringResource(id = R.string.settings))
+        }
+
+        Spacer(Modifier.weight(1f))
