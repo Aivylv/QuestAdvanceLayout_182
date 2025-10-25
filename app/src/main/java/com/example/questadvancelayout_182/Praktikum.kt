@@ -114,4 +114,9 @@ fun MenuItem(@DrawableRes iconResId: Int, text: String) {
         Row(
             modifier = Modifier.padding(horizontal = 20.dp, vertical = 16.dp),
             verticalAlignment = Alignment.CenterVertically
-        )
+        ) {
+            Image(
+                painter = painterResource(id = iconResId),
+                contentDescription = text,
+                modifier = Modifier.size(24.dp)
+            )
