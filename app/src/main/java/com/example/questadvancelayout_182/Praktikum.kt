@@ -103,3 +103,11 @@ fun SocialIcon(@DrawableRes iconResId: Int) {
             .size(40.dp)
     )
 }
+
+@Composable
+fun MenuItem(@DrawableRes iconResId: Int, text: String) {
+    Card(
+        modifier = Modifier.fillMaxWidth(),
+        shape = RoundedCornerShape(50),
+        colors = CardDefaults.cardColors(containerColor = Color.DarkGray)
+    )
