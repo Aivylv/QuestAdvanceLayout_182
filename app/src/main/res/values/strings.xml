@@ -5,4 +5,14 @@
     <string name="nama">Lyvia Ayuning Larasati</string>
     <string name="alamat">Kasihan, Bantul</string>
     <string name="copy">copyright, 2025</string>
+
+    <string name="name">Lyvia A. Larasati</string>
+    <string name="usn">\@lyvialv</string>
+    <string name="bio">Saya adalah hiu imut yang mungil</string>
+    <string name="privacy">Privacy</string>
+    <string name="history">Riwayat Transaksi</string>
+    <string name="settings">Pengaturan</string>
+    <string name="copyr">© 2025 Lyvia</string>
+    <string name="imagedesc">Foto Profil</string>
+    <string name="next">Lanjutkan</string>
 </resources>
