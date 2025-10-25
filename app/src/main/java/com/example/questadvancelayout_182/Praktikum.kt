@@ -110,4 +110,8 @@ fun MenuItem(@DrawableRes iconResId: Int, text: String) {
         modifier = Modifier.fillMaxWidth(),
         shape = RoundedCornerShape(50),
         colors = CardDefaults.cardColors(containerColor = Color.DarkGray)
-    )
+    ) {
+        Row(
+            modifier = Modifier.padding(horizontal = 20.dp, vertical = 16.dp),
+            verticalAlignment = Alignment.CenterVertically
+        )
