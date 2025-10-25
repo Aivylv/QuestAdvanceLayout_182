@@ -84,3 +84,11 @@ fun ProfileScreen(modifier: Modifier = Modifier) {
         }
 
         Spacer(Modifier.weight(1f))
+
+        Text(
+            text = stringResource(id = R.string.copyr),
+            color = Color.Gray,
+            fontSize = 12.sp
+        )
+    }
+}
