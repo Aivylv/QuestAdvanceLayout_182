@@ -31,4 +31,14 @@ fun ProfileScreen(modifier: Modifier = Modifier) {
             .background(Color.Black)
             .padding(horizontal = 24.dp, vertical = 30.dp),
         horizontalAlignment = Alignment.CenterHorizontally
-    )
+    ) {
+        Spacer(modifier = Modifier.height(30.dp))
+
+        Image(
+            painter = painterResource(id = R.drawable.lipi),
+            contentDescription = stringResource(id = R.string.imagedesc),
+            modifier = Modifier
+                .size(120.dp)
+                .clip(CircleShape),
+            contentScale = ContentScale.Crop
+        )
