@@ -23,3 +23,12 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.questadvancelayout_182.R
 
+@Composable
+fun ProfileScreen(modifier: Modifier = Modifier) {
+    Column(
+        modifier = modifier
+            .fillMaxSize()
+            .background(Color.Black)
+            .padding(horizontal = 24.dp, vertical = 30.dp),
+        horizontalAlignment = Alignment.CenterHorizontally
+    )
