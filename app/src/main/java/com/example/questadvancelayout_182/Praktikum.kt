@@ -120,3 +120,10 @@ fun MenuItem(@DrawableRes iconResId: Int, text: String) {
                 contentDescription = text,
                 modifier = Modifier.size(24.dp)
             )
+            Spacer(modifier = Modifier.width(16.dp))
+            Text(
+                text = text,
+                color = Color.White,
+                fontSize = 16.sp,
+                modifier = Modifier.weight(1f)
+            )
