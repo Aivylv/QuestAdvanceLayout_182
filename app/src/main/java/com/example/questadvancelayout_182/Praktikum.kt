@@ -42,3 +42,17 @@ fun ProfileScreen(modifier: Modifier = Modifier) {
                 .clip(CircleShape),
             contentScale = ContentScale.Crop
         )
+
+        Spacer(modifier = Modifier.height(24.dp))
+
+        Row(
+            horizontalArrangement = Arrangement.spacedBy(16.dp),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            SocialIcon(iconResId = R.drawable.facebook)
+            SocialIcon(iconResId = R.drawable.instagram)
+            SocialIcon(iconResId = R.drawable.tiktok)
+            SocialIcon(iconResId = R.drawable.linkedin)
+        }
+
+        Spacer(modifier = Modifier.height(16.dp))
